@@ -8,7 +8,7 @@ function App() {
       Hello word
       <br />
       <Button variant="primary" size="sm" className="m-3" onClick={() => {}}>
-        Tên nút
+        Tên nút A
       </Button>
 
     </div>
