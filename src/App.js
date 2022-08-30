@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './IMG_8771A.jpg'
+import './App.scss'
+import { useState, useEffect } from 'react'
+import { Button, ProgressBar } from 'react-bootstrap'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello worrd
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      Hello word
+      <br />
+      <Button variant="primary" size="sm" className="m-3" onClick={() => {}}>
+        Tên nút
+      </Button>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
